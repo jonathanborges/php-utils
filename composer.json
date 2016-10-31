@@ -1,0 +1,19 @@
+{
+    "name": "jonathan/php-utils",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jonathan",
+            "email": "jonathan@dev2world.com"
+        }
+    ],
+    "require" : {
+        "php" : "^5.5 || ^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPUtils\\": "src/"
+        }
+    }
+}
